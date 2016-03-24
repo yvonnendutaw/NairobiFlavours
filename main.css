@@ -68,14 +68,19 @@ a{
 #footer{
     text-align: center;
     background-image: url(images/border-bottom.gif);
-    padding: 10px;
+    padding: 5px;
     width: auto;
     color: aliceblue;
     text-align: center;
 }
 #footer1{
+    position: relative;
+    top: 10px;
     text-align: left
 }
 #footer2{
     text-align: right;
+}
+footer a{
+    color: antiquewhite;
 }
