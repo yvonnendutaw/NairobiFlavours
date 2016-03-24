@@ -12,15 +12,15 @@ body{
 #header {
     background-color: rgb(190, 8, 8);
     max-width:100%;
-    margin-left: 200px;
-    text-align: center; top:20px;
+    margin-left:0px;
+    text-align: center;
     color: rgb(56, 49, 41);
     text-align: center;
     max-height: 100px;
     margin-top: 0;
     position: relative;
-    border-radius: 10px;
-    float: right;
+    border-radius: 4px;
+  float: center;
 }
 .logo{
     image-resolution: snap;
@@ -31,10 +31,12 @@ body{
     display: block;
     background-color: #9d2f06;
   text-align: justify;
-    border-radius: 50px;
+    border-radius: 10px;
     width: 400px;
     float: right;
     text-transform: uppercase;
+    position: relative;
+    bottom: 10px;
 }
 ul{
     display: inline-block;
