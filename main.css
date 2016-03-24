@@ -20,8 +20,8 @@ body{
     margin-top: 0;
     position: relative;
     border-radius: 4px;
-  float: center;
-    padding: 20px;
+    float: center;
+    padding: 15px;
 }
 .logo{
     image-resolution: snap;
@@ -53,17 +53,17 @@ a{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 5px;
-    margin-left: 250px;
-    margin-right: 250px;
+
     height: 700px;
-    width: auto;
-    margin: 0px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #eadcdc;
     float: center;
 
 }
 #footer{
     text-align: center;
-    background-color: #3b3636;
+    background-image: url(images/border-bottom.gif);
     margin: 2opx;
 }
