@@ -2,7 +2,7 @@ body{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    background-color: rgb(191, 164, 164);
+    background-color: rgb(248, 248, 248);
     max-width: 100%;
     max-height: 100%;
     position: relative;
@@ -21,6 +21,7 @@ body{
     position: relative;
     border-radius: 4px;
   float: center;
+    padding: 20px;
 }
 .logo{
     image-resolution: snap;
@@ -29,10 +30,11 @@ body{
 }
 .nav{
     display: block;
-
+background-color: #7f7fed;
     text-align: justify;
     border-radius: 10px;
-    width: 400px;
+    width:20px;
+    height: 50px;
     float: right;
     text-transform: uppercase;
     position: relative;
@@ -47,16 +49,21 @@ a{
 }
 
 #content{
-    position: relative; top: 80px;
+    position: relative; top: 5px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 250px;
     margin-right: 250px;
     height: 700px;
+    width: auto;
     margin: 0px;
-    background-color: #830909;opacity:0.6;
+    background-color: #eadcdc;
+    float: center;
 
-
-
+}
+#footer{
+    text-align: center;
+    background-color: #3b3636;
+    margin: 2opx;
 }
