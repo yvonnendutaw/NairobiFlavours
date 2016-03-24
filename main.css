@@ -53,7 +53,6 @@ a{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 5px;
-
     height: 700px;
     width: 100%;
     margin-top: 20px;
@@ -62,11 +61,21 @@ a{
     float: center;
 
 }
+#main img{
+    float: left;
+
+}
 #footer{
     text-align: center;
     background-image: url(images/border-bottom.gif);
     padding: 10px;
     width: auto;
     color: aliceblue;
-    text-align: left;
+    text-align: center;
+}
+#footer1{
+    text-align: left
+}
+#footer2{
+    text-align: right;
 }
