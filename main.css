@@ -29,8 +29,8 @@ body{
 }
 .nav{
     display: block;
-    background-color: #9d2f06;
-  text-align: justify;
+
+    text-align: justify;
     border-radius: 10px;
     width: 400px;
     float: right;
