@@ -57,7 +57,15 @@ li a {
     padding: 8px 0 8px 16px;
 
 }
+#hero {
+    background-color: black; opacity: 0.5;
+    color: white;
+    width: 800px;
+    height: 150px;
+    float: center;
+    border-radius: 7px;
 
+}
 #content{
     position: relative;
     float: center;
