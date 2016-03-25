@@ -2,15 +2,14 @@ body{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    background-color: rgb(226, 151, 9);
+
     max-width: 100%;
     max-height: 100%;
     position: relative;
-    padding: 50px;
+
 
 }
 #header {
-   background-image: url(images/border-bottom.gif);
     max-width:100%;
     margin-left:0px;
     text-align: center;
@@ -53,29 +52,21 @@ a{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 5px;
-    height: 700px;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #eadcdc;
+    height: 1000px;
+    background-image: url(images/Burgers-with-Barbecue-sauce-1920x1200.jpg);
     float: center;
 
 }
-#main img{
-    float: left;
 
-}
 #footer{
     text-align: center;
-    background-image: url(images/border-bottom.gif);
-    padding: 5px;
     width: auto;
     color: aliceblue;
     text-align: center;
 }
 #footer1{
     position: relative;
-    top: 10px;
     text-align: left
 }
 #footer2{
