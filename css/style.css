@@ -32,7 +32,6 @@ text-decoration: none;
 
 .cd-title {
   position: relative;
-  height: 160px;
   line-height: 0px
   text-align: left;
 }
@@ -42,9 +41,7 @@ text-decoration: none;
     text-align: left;
 }
 @media only screen and (min-width: 768px) {
-  .cd-title {
-    line-height: 250px;
-  }
+
 }
 @media only screen and (min-width: 1170px) {
   .cd-title {
