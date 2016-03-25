@@ -9,8 +9,7 @@ body{
 
 }
 #header {
-    width:100%;
-    margin-left:0px;
+    width:inherit;
     text-align: center;
     color:aliceblue;
     text-align: center;
@@ -19,17 +18,20 @@ body{
     position: fixed;
     border-radius: 4px;
     float: center;
-    padding: 0px;
+    padding: px;
+
 }
 #logo{
     image-resolution: snap;
     float: left;
     position: fixed;
-    top: 5px;
+    top: 15px;
+    left: 10px;
 }
 #logo img{
      width: 80px;
     height: 80px;
+    opacity: inherit;
 }
 #nav {
     position:fixed;
@@ -37,12 +39,12 @@ body{
     left:0;
     right:0;
     bottom:0;
-    width:100%;
+    width:40%;
     height:40px;
     margin-left: 800px;
     text-align: justify;
     float: left;
-    background-color: rgba(168, 1, 1, 0.55);
+    background-color: rgba(168, 1, 1, 0.21);
     border-radius: 6px;
 }
 #nav a {
