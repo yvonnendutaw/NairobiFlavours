@@ -22,22 +22,36 @@ body{
     float: center;
     padding: 15px;
 }
-.logo{
+#logo{
     image-resolution: snap;
     float: left;
-
 }
-.nav{
-    display: block;
-background-color: #7f7fed;
-    text-align: justify;
-    border-radius: 10px;
-    width:20px;
-    height: 50px;
-    float: right;
-    text-transform: uppercase;
-    position: relative;
-    bottom: 10px;
+#logo img{
+     width: 80px;
+    height: 80px;
+}
+#nav {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    background-color:gray;
+    color:green;
+    height:35px;
+    text-align:center;
+    padding-top:15px;
+}
+#nav a {
+    font-size:14px;
+    padding-left:15px;
+    padding-right:15px;
+    color:black;
+    text-decoration:none;
+}
+#navigation a:hover {
+    color:blue;
 }
 ul{
     display: inline-block;
