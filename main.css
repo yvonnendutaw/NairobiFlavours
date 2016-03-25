@@ -30,7 +30,7 @@ body{
     float: center;
     padding: 30px;
     font-family:'Roboto Condensed', sans-serif;
-    background-color: #e31010;
+    background-color: rgba(195, 164, 164, 0.63);
     width: 600px;
     float: center;
     margin-left: 800px;
@@ -39,9 +39,10 @@ body{
 #nav a {
     font-size:14px;
     padding: 30px;
-    color: #e2e0f0
-    font-size: 35px;
+    color: #1d1b2e
+    font-size: 50px;
     border: 20px;
+    text-decoration: none;
 }
 #navigation a:hover {
     background-color: white;
