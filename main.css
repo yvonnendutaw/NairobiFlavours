@@ -2,50 +2,71 @@ body{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    background-color: rgb(226, 151, 9);
     max-width: 100%;
     max-height: 100%;
     position: relative;
-    padding: 50px;
+
 
 }
 #header {
-   background-image: url(images/border-bottom.gif);
-    max-width:100%;
-    margin-left:0px;
+    width:inherit;
     text-align: center;
     color:aliceblue;
     text-align: center;
     max-height: 100px;
     margin-top: 0;
-    position: relative;
+    position: fixed;
     border-radius: 4px;
     float: center;
-    padding: 15px;
-}
-.logo{
-    image-resolution: snap;
-    float: left;
+    padding: px;
 
 }
-.nav{
-    display: block;
-background-color: #7f7fed;
+#logo{
+    image-resolution: snap;
+    float: left;
+    position: fixed;
+    top: 15px;
+    left: 10px;
+}
+#logo img{
+     width: 80px;
+    height: 80px;
+    opacity: inherit;
+}
+#nav {
+    position:fixed;
+    top:20px;
+    left:0;
+    right:0;
+    bottom:0;
+    width:40%;
+    height:40px;
+    margin-left: 800px;
     text-align: justify;
-    border-radius: 10px;
-    width:20px;
-    height: 50px;
-    float: right;
-    text-transform: uppercase;
-    position: relative;
-    bottom: 10px;
+    float: left;
+    background-color: rgba(168, 1, 1, 0.21);
+    border-radius: 6px;
 }
-ul{
-    display: inline-block;
-    list-style: none;
+#nav a {
+    font-size:14px;
+    padding-left:15px;
+    padding-right:15px;
+    color:#050705;
+    text-decoration:none;
 }
-a{
-    color: black
+#navigation a:hover {
+    color:blue;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 8px 0 8px 16px;
+
 }
 
 #content{
@@ -53,29 +74,21 @@ a{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 5px;
-    height: 700px;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #eadcdc;
+    height: 1000px;
+    background-image: url(images/Burgers-with-Barbecue-sauce-1920x1200.jpg);
     float: center;
 
 }
-#main img{
-    float: left;
 
-}
 #footer{
     text-align: center;
-    background-image: url(images/border-bottom.gif);
-    padding: 5px;
     width: auto;
     color: aliceblue;
     text-align: center;
 }
 #footer1{
     position: relative;
-    top: 10px;
     text-align: left
 }
 #footer2{
