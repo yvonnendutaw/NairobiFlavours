@@ -8,6 +8,7 @@ body{
     font-family: 'Poiret One', cursive;
     text-align: center;
     background-image:url(images/Burgers-with-Barbecue-sauce-1920x1200.jpg);
+    background-repeat: no-repeat;
 }
 
 
@@ -26,24 +27,20 @@ body{
     width:100%;
     height:10px;
     align-content: stretch;
-    float: center;
     padding: 30px;
     font-family:'Roboto Condensed', sans-serif;
-    background-color: rgba(195, 164, 164, 0.63);
-    width: 600px;
-    float: center;
+    background-color: rgba(0, 0, 0, 0.28);
     margin-left: 800px;
     border-radius: 5px;
 }
-#nav a {
+#nav>a {
     font-size:14px;
     padding: 30px;
-    color: #1d1b2e
-    font-size: 50px;
+    color: #401fe3;
     border: 20px;
     text-decoration: none;
 }
-#navigation a:hover {
+#navigation >a:hover {
     background-color: white;
 }
 li {
@@ -57,13 +54,33 @@ li a {
     padding: 8px 0 8px 16px;
 
 }
+a.button {
+-webkit-box-shadow: -14px 7px 55px 10px rgba(232,7,7,1);
+-moz-box-shadow: -14px 7px 55px 10px rgba(232,7,7,1);
+box-shadow: -14px 7px 55px 10px rgba(232,7,7,1);
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    background-clip: border-box;
+    background-color: #d0c2f8;
+    border-radius: 5px;
+    box-shadow:
+    float: center;
+    margin-top: 60px;
+    margin-left: 40%;
+    font-weight: bold;
+}
 #hero {
-    background-color: black; opacity: 0.5;
+    background-color: black; opacity: 0.3;
     color: white;
     width: 800px;
     height: 150px;
     float: center;
-    border-radius: 7px;
+    border-radius: 10px;
+    text-align: center;
 
 }
 #content{
@@ -77,6 +94,12 @@ li a {
 }
 h1{
     text-decoration-line: none;
+}
+btn{
+    background-color: beige;
+    color: #272753
+        width:3px;
+        height: 2px;
 }
 footer{
     padding: 25px;
