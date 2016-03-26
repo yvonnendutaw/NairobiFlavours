@@ -17,20 +17,20 @@ body{
     text-align: left;
     margin-right: 800px;
     font-weight: 400;
-    font-family: 'Poiret One', cursive;
+
 }
 #nav {
     position:relative;
     top:20px;
     left:0;
     right:0;
-    width:100%;
+    width:50%;
     height:10px;
     align-content: stretch;
     padding: 30px;
     font-family:'Roboto Condensed', sans-serif;
     background-color: rgba(0, 0, 0, 0.28);
-    margin-left: 800px;
+    margin-left: 700px;
     border-radius: 5px;
 }
 #nav>a {
@@ -67,10 +67,8 @@ box-shadow: -14px 7px 55px 10px rgba(232,7,7,1);
     background-clip: border-box;
     background-color: #d0c2f8;
     border-radius: 5px;
-    box-shadow:
-    float: center;
     margin-top: 60px;
-    margin-left: 40%;
+    margin-left: 800px;
     font-weight: bold;
 }
 #hero {
@@ -79,7 +77,10 @@ box-shadow: -14px 7px 55px 10px rgba(232,7,7,1);
     width: 800px;
     height: 150px;
     float: center;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     text-align: center;
 
 }
@@ -106,7 +107,8 @@ footer{
     background-color: rgba(240, 248, 255, 0);
     color: #33334b;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 14px;
+    font-size: 25px;
+    text-align: center;
 }
 .footer>contact{
     float: right;
