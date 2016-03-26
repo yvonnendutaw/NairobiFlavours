@@ -20,33 +20,13 @@ html {
 
 body {
   font-size: 1.6rem;
-  color: #aebcb9;
-}
-
-a {
-  text-decoration: none;
-}
-
-.cd-title {
-  position: relative;
-  height: 160px;
-  line-height: 230px;
-  text-align: center;
-}
-.cd-title h1 {
-  font-size: 2.4rem;
-  font-weight: 700;
-    text-align: left;
 }
 @media only screen and (min-width: 768px) {
-  .cd-title {
-    line-height: 250px;
-  }
+
 }
 @media only screen and (min-width: 1170px) {
   .cd-title {
-    height: 200px;
-    line-height: 300px;
+
   }
   .cd-title h1 {
     font-size: 3rem;
@@ -55,23 +35,21 @@ a {
 
 .cd-intro {
   width: 90%;
-  max-width: 768px;
-  text-align: center;
+  max-width: 100%;
+  text-align: left;
     align-items: center;
-    margin-top: 200px;
-}
-
-.cd-intro {
-  margin: 4em auto;
 }
 @media only screen and (min-width: 768px) {
   .cd-intro {
-    margin: 5em auto;
+
   }
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
-    margin: 6em auto;
+ float: center;
+      margin-top: 100px;
+      margin-right: 125px;
+        margin-bottom: 100px;
   }
 }
 
