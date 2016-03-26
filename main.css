@@ -93,7 +93,7 @@ box-shadow: -14px 7px 55px 10px rgba(232,7,7,1);
     color: #2d475d;
     top: 0;
     width: auto;
-    height: 500px;
+    height: 400px;
 
 }
 h1{
@@ -106,10 +106,14 @@ btn{
         height: 2px;
 }
 footer {
-    display: inline-block solid;
-    background-color: rgba(240, 248, 255, 0);
-    color: #33334b;
+    display:block;
+    background-color:black; opacity:0.4;
+    color: #fefeff;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     text-align: center;
+    position:relative;
+    bottom:45px;
+    width:120%;
+    padding: 10px;
 }
