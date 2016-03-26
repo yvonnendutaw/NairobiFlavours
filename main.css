@@ -15,34 +15,40 @@ body{
 #title h1{
     display: block solid;
     font-family: 'Poiret One', cursive;
-    text-align: left;
+    text-align: center;
     font-weight:700;
     font-size: 60px;
     margin-top: 30px;
-
 }
+#title h2{
+    display: block solid;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-weight:500;
+    font-size: 30px;
+}
+
 #nav {
     position:relative;
-    top:20px;
+    top:0px;
     left:0;
     right:0;
-    width:50%;
-    height:10px;
+    width:100%;
     align-content: stretch;
-    padding: 30px;
-    font-family:'Roboto Condensed', sans-serif;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.28);
-    margin-left: 700px;
     border-radius: 5px;
 }
 #nav>a {
-    font-size:14px;
-    padding: 30px;
-    color: #401fe3;
-    border: 20px;
+    font-size:18px;
+    font-weight:700;
+    padding: 19px;
+    color: #222571;
     text-decoration: none;
+    font-family: 'Poiret One', cursive;
+
 }
-#navigation >a:hover {
+#navigation a:hover {
     background-color: white;
 }
 li {
@@ -102,8 +108,8 @@ h1{
 btn{
     background-color: beige;
     color: #272753
-        width:3px;
-        height: 2px;
+    width:3px;
+    height: 2px;
 }
 footer {
     display:block;
@@ -113,7 +119,7 @@ footer {
     font-size: 20px;
     text-align: center;
     position:relative;
-    bottom:45px;
+    bottom:85px;
     width:120%;
     padding: 10px;
 }
