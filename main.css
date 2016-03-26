@@ -109,7 +109,5 @@ footer{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
     text-align: center;
-}
-.footer>contact{
-    float: right;
+    margin-top: 100px;
 }
