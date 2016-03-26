@@ -15,8 +15,8 @@ body{
 #title .h1{
     font-family: 'Poiret One', cursive;
     text-align: left;
-    margin-right: 800px;
     font-weight: 400;
+    font-size: 60px;
 
 }
 #nav {
@@ -49,9 +49,10 @@ li {
 
 li a {
     display: block;
-    color: #2d475d;
+    color: #abc9e3;
     text-align: left;
     padding: 8px 0 8px 16px;
+    font-size: 35px;
 
 }
 a.button {
