@@ -1,128 +1,116 @@
 <!Doctype hmtl>
 <html>
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Polish Cafe</title>
+<title>Polish Cafe</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Poiret+One" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/reset.css">
-    <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Resource style -->
-    <script src="js/modernizr.js"></script>
-    <!-- Modernizr -->
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Poiret+One" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/reset.css">
+<!-- CSS reset -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Resource style -->
+<script src="js/modernizr.js"></script>
+<!-- Modernizr -->
 
-    <link rel="stylesheet" href="main.css">
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-<script>
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(52.233982,20.971212},),
-    zoom:5,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("map"),mapProp);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+<link rel="stylesheet" href="main.css">
+      <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat:52.233982, lng: 20.971212},
+          zoom: 8
+        });
+      }
+    </script>
 </head>
-
 <body>
 
-    <a name="content"></a><div id="content">
-        <div id="nav" class="active">
-            <a :hover="" href="#content">ABOUT</a>
-            <a :hover="" href="#menu">MENU</a>
-            <a :hover="" href="#contact">CONTACTS</a>
-            <a :hover="" href="#location">LOCATION</a>
-        </div>
-
-        <!--You are required to only remain with one of these as your intro text-->
-        <!--One-->
-        <div id="title">
-            <h1>Nairobi Flavours</h1>
-            <br>
-            <h2>Making People Happy Through Food</h2>
-        </div>
-
-        <section class="cd-intro">
-            <h1 class="cd-headline letters type">
-            <div id="hero">
-		<h1 class="cd-headline letters zoom">
-            <span>What will you have today?<br></span>
-			<span class="cd-words-wrapper waiting" style="width: 92px;">
-                <b class="is-hidden" align="center;" style="opacity: 1;"><i class="out">P</i><i class="out">i</i><i class="out">z</i><i class="out">z</i><i class="out">a</i><i class="out">?</i></b>
-                <b class="is-hidden" style="opacity: 1;"><i class="out">B</i><i class="out">u</i><i class="out">r</i><i class="out">g</i><i class="out">e</i><i class="out">r</i><i class="out">s</i><i class="out">?</i></b>
-                <b class="is-visible" style="opacity: 1;"><i class="in">F</i><i class="in">r</i><i class="in">i</i><i class="in">e</i><i class="in">s</i><i class="in">?</i></b>
-                <b class="is-hidden" style="opacity: 1;"><i class="out">D</i><i class="out">r</i><i class="out">i</i><i class="out">n</i><i class="out">k</i><i class="out">s</i><i class="out">?</i></b>
-			</span>
-                </h1>
+<a name="content"></a><div id="content">
+    <div id="nav" class="active">
+        <a :hover="" href="#content">ABOUT</a>
+        <a :hover="" href="#menu">MENU</a>
+        <a :hover="" href="#contact">CONTACTS</a>
+        <a :hover="" href="#location">LOCATION</a>
     </div>
-    </h1>
-             <div id="button">
-        <a href="contacts.html" class="button">ORDER NOW</a>
-        </div>
-    </section>
 
-     <a name="menu"></a><div class="menu">
-        <table>
-            <tbody>
-                <tr>
-                    <th colspan="2"><h3 font-size="40px";>OUR MENU</h3></th>
-
-                </tr>
-                    <tr>
-                        <td><img src="images/burgeers.jpeg" width="150px" height="100px">
-                    </td>
-
-                    <td width="200px">Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. </td>
-                </tr>
-                       <tr>
-                        <td><img src="images/hotdog.jpeg"  width="150px" height="100px">
-                    </td>
-
-                    <td>Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. Quid cupidatat an sint nulla ut eram fabulas familiaritatem.</td>
-                </tr>
-                <tr>
-                        <td><img src="images/wings.jpeg" width="150px" height="100px">
-                    </td>
-
-                    <td>Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. Quid cupidatat an sint nulla ut eram fabulas familiaritatem.</td>
-                </tr>
-                <tr>
-                        <td><img src="images/chips.jpeg" width="150px" height="100px">
-                    </td>
-
-                    <td>Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. Quid cupidatat an sint nulla ut eram fabulas familiaritatem.Esse iudicem cupidatat, fugiat ex doctrina.
-
-                        Offendit o voluptate a ut culpa fugiat lorem proident.</td>
-                </tr>
-            </tbody>
-        </table>
-        </div>
-        <div class="contact">
-            <form>
-                <table>
-                    <tr><td>Name
-                        </td>
-                    </tr>
-                </table>
-
-            </form>
-        </div>
-        <a name="location"></a><div id="map">
-  </div>
-
-        <footer>
-            <div id="copyright">
-                <small>© All Rights Reserved | 2016</small>
-            </div>
-        </footer>
-        <script src="js/jquery-2.1.1.js"></script>
-        <script src="js/main.js"></script>
-        <!-- Resource jQuery -->
+    <!--You are required to only remain with one of these as your intro text-->
+    <!--One-->
+    <div id="title">
+        <h1>Nairobi Flavours</h1>
+        <br>
+        <h2>Making People Happy Through Food</h2>
     </div>
+
+    <section class="cd-intro">
+        <h1 class="cd-headline letters type">
+        <div id="hero">
+    <h1 class="cd-headline letters zoom">
+        <span>What will you have today?<br></span>
+        <span class="cd-words-wrapper waiting" style="width: 92px;">
+            <b class="is-hidden" align="center;" style="opacity: 1;"><i class="out">P</i><i class="out">i</i><i class="out">z</i><i class="out">z</i><i class="out">a</i><i class="out">?</i></b>
+            <b class="is-hidden" style="opacity: 1;"><i class="out">B</i><i class="out">u</i><i class="out">r</i><i class="out">g</i><i class="out">e</i><i class="out">r</i><i class="out">s</i><i class="out">?</i></b>
+            <b class="is-visible" style="opacity: 1;"><i class="in">F</i><i class="in">r</i><i class="in">i</i><i class="in">e</i><i class="in">s</i><i class="in">?</i></b>
+            <b class="is-hidden" style="opacity: 1;"><i class="out">D</i><i class="out">r</i><i class="out">i</i><i class="out">n</i><i class="out">k</i><i class="out">s</i><i class="out">?</i></b>
+        </span>
+            </h1>
+</div>
+</h1>
+         <div id="button">
+    <a href="contacts.html" class="button">ORDER NOW</a>
+    </div>
+</section>
+
+ <a name="menu"></a><div class="menu">
+    <table>
+        <tbody>
+            <tr>
+            <th colspan="2"><h3 font-size="40px";>OUR MENU</h3></th>
+
+            </tr>
+                <tr>
+                    <td><img src="images/burgeers.jpeg" width="120px" height="90px">
+                </td>
+
+                    <td>E ea noster admodum, possumus est aliqua tempor.<br> KES 520</td>
+            </tr>
+                   <tr>
+                    <td><img src="images/pizza.jpeg"  width="120px" height="90px">
+                </td>
+
+                       <td>In sint praetermissum, voluptate malis officia.<br>KES 600</td>
+            </tr>
+            <tr>
+                    <td><img src="images/wings.jpeg" width="120px" height="90px">
+                </td>
+
+                <td>Expetendis non dolor occaecat, appellat instituendarum ubi voluptate.<br> KES 530</td>
+            </tr>
+            <tr>
+                    <td><img src="images/chips.jpeg" width="120px" height="90px">
+                </td>
+
+                <td>Quid cupidatat an sint nulla ut eram fabulas familiaritatem.Esse iudicem cupidatat, fugiat ex doctrina.
+.<br>KES 485</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+     <h3>FIND US</h3>
+    <a name="location"></a><div id="map">
+        <h3>FIND US</h3>
+</div>
+        <script src="http://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+    </div>
+    <footer>
+        <div id="copyright">
+            <small>© All Rights Reserved | 2016</small>
+        </div>
+    </footer>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Resource jQuery -->
+</div>
 </body>
