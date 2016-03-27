@@ -181,7 +181,7 @@ tr{
 }
 footer {
     display:block;
-    background-color:#333c43;
+    background-color:rgba(51, 60, 67, 0.38);
     color: #fefeff;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
