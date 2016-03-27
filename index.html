@@ -1,35 +1,6 @@
-<head>
-    <style>
-        #button226222234558 {
-            border: 1px dotted gray;
-            position: absolute;
-            height: 10px;
-            width: 58px;
-            left: 395px;
-            top: 30px;
-        }
-    </style>
-    <style>
-        #button226222232365 {
-            border: 1px dotted gray;
-            position: absolute;
-            height: 9px;
-            width: 59px;
-            left: 350px;
-            top: 33px;
-        }
-    </style>
-    <style>
-        #button22622210539 {
-            border: 1px dotted gray;
-            position: absolute;
-            height: 61px;
-            width: 181px;
-            left: 367px;
-            top: 355px;
-        }
-    </style>
-
+<!Doctype hmtl>
+<html>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,16 +16,28 @@
     <!-- Modernizr -->
 
     <link rel="stylesheet" href="main.css">
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(52.233982,20.971212},),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("map"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </head>
 
 <body>
 
-    <div id="content">
+    <a name="content"></a><div id="content">
         <div id="nav" class="active">
-            <a :hover="" href="index.html">ABOUT</a>
-            <a :hover="" href="menu.html">MENU</a>
-            <a :hover="" href="contacts.html">CONTACTS</a>
-            <a :hover="" href="location.html">LOCATION</a>
+            <a :hover="" href="#content">ABOUT</a>
+            <a :hover="" href="#menu">MENU</a>
+            <a :hover="" href="#contact">CONTACTS</a>
+            <a :hover="" href="#location">LOCATION</a>
         </div>
 
         <!--You are required to only remain with one of these as your intro text-->
@@ -79,38 +62,60 @@
                 </h1>
     </div>
     </h1>
-    </section>
-    <br>
-    <div id="button">
+             <div id="button">
         <a href="contacts.html" class="button">ORDER NOW</a>
         </div>
-    <div class="menu">
+    </section>
+
+     <a name="menu"></a><div class="menu">
         <table>
             <tbody>
                 <tr>
-                    <th><h3 color="black">On our Menu</h3></th>
+                    <th colspan="2"><h3 font-size="40px";>OUR MENU</h3></th>
+
                 </tr>
                     <tr>
-                        <td><img src="images/burgeers.jpeg">
+                        <td><img src="images/burgeers.jpeg" width="150px" height="100px">
                     </td>
 
-                    <td>Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. Quid cupidatat an sint nulla ut eram fabulas familiaritatem.</td>
+                    <td width="200px">Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. </td>
                 </tr>
                        <tr>
-                        <td><img src="images/burgeers.jpeg">
+                        <td><img src="images/hotdog.jpeg"  width="150px" height="100px">
                     </td>
 
                     <td>Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. Quid cupidatat an sint nulla ut eram fabulas familiaritatem.</td>
                 </tr>
+                <tr>
+                        <td><img src="images/wings.jpeg" width="150px" height="100px">
+                    </td>
 
+                    <td>Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. Quid cupidatat an sint nulla ut eram fabulas familiaritatem.</td>
+                </tr>
+                <tr>
+                        <td><img src="images/chips.jpeg" width="150px" height="100px">
+                    </td>
+
+                    <td>Expetendis non dolor occaecat, appellat instituendarum ubi voluptate. Quid cupidatat an sint nulla ut eram fabulas familiaritatem.Esse iudicem cupidatat, fugiat ex doctrina.
+
+                        Offendit o voluptate a ut culpa fugiat lorem proident.</td>
+                </tr>
             </tbody>
         </table>
-
+        </div>
         <div class="contact">
             <form>
+                <table>
+                    <tr><td>Name
+                        </td>
+                    </tr>
+                </table>
 
             </form>
         </div>
+        <a name="location"></a><div id="map">
+  </div>
+
         <footer>
             <div id="copyright">
                 <small>© All Rights Reserved | 2016</small>
@@ -119,6 +124,5 @@
         <script src="js/jquery-2.1.1.js"></script>
         <script src="js/main.js"></script>
         <!-- Resource jQuery -->
-    </div>
     </div>
 </body>
