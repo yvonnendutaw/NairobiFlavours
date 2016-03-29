@@ -179,6 +179,9 @@ tr{
     font-size: 40px;
     font-weight: 700;
 }
+i{
+    align-content: center;
+}
 footer {
     display:block;
     background-color:rgba(51, 60, 67, 0.38);
@@ -190,4 +193,7 @@ footer {
     bottom:0;
     width:100%;
     padding: 5px;
+}
+#footer{
+    float: right;
 }
